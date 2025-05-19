@@ -42,8 +42,8 @@ body {
 
 .tree-container {
   /* Asegura que el contenedor tenga el nuevo tamaño */
-  width: 520px !important;
-  height: 520px !important;
+  width: 490px !important;
+  height: 490px !important;
   /* Centrado absoluto */
   position: absolute;
   top: 50%;

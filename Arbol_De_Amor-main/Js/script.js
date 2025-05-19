@@ -71,8 +71,7 @@ function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
     text = `Para el amor de la vida mia:\n\n Mis ojos son tan comunes,\n tan normales ...\n pero te juro que te miran como si fueras tú la octava maravilla, 
-    como quien mira a su paisaje favorito. y con la misma paz de quien encuentra luz despues de tanta oscuridad y calma después de una tormenta. \n\n 
-    Bueno en fin que vivan los atardeceres y la guapota de mi novia. 
+    como quien mira a su paisaje favorito. y con la misma paz de quien encuentra luz despues de tanta oscuridad y calma después de una tormenta.\n Bueno en fin que vivan los atardeceres y la guapota de mi novia. 
     `;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
